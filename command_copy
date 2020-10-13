@@ -4,9 +4,11 @@
 
 FOLDER=/home/valery/Reseau/Dicom/BRUKER/JulieHR/METHODO_article/manip_2019/Figures_Github/Gifs/
 
-GIFS[0]=timelaps_heart1_SAG_100.gif
-GIFS[1]=timelaps_heart2_SAG_100.gif
-GIFS[2]=timelaps_heart3_SAG_100.gif
+GIFS[0]=timelaps_heart1_SAG_400.gif
+GIFS[1]=timelaps_heart2_SAG_300.gif
+GIFS[2]=timelaps_heart3_SAG_400.gif
+
+
 
 
 for SAMPLE in "${!GIFS[@]}"; 
