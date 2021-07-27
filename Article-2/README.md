@@ -38,6 +38,8 @@ As an example, the code automatically produces the following figures.
 
 The data are available on the Zenodo Platform.
 
+
+```
 .
 ├── Data
 │   ├── 1
@@ -76,6 +78,7 @@ The data are available on the Zenodo Platform.
 ├── Slicer
 └── Warps
 
+```
 
 
 
