@@ -23,15 +23,15 @@ Compiled: Feb  4 2021 11:20:35
 ## Code 
 
 A code for the computation of the diffusion tensor metric and streamlines is available.  The code is subject to change at any moment. 
+As an example, the code automatically produces the following figures. 
 
+## Figures
 
-## Typical output automatically generated with the code
-
-### Sample 1
+### Sample 1 in template space
 ![](Figures/figure_2D_tracto_1_FACT_Full_s50000_ep_a20_angle60_co_moved_to_T_0000.png)
-### Sample 2
+### Sample 2 in template space
 ![](Figures/figure_2D_tracto_2_FACT_Full_s50000_ep_a20_angle60_co_moved_to_T_0000.png)
-### Sample 3
+### Sample 3 in template space
 ![](Figures/figure_2D_tracto_3_FACT_Full_s50000_ep_a20_angle60_co_moved_to_T_0000.png)
 
 ## Data folder

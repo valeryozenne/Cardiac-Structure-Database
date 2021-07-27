@@ -82,7 +82,7 @@ do
    OUT=${FOLDER_INITIAL}/mask_tracto_${NUM}_moved_reoriented.nii.gz
    #logCmd ThresholdImage 3 ${FA} ${OUT} 0.1 Inf 1 0  
    
-   logCmd tckgen ${V1} -algorithm FACT -select ${SELECT} -step 0.5 -angle ${ANGLE} -cutoff ${CUTOFF} -maxlength ${MAXLENGH} -minlength 1 -seed_image ${OUT}  ${TRACTO_FACT}  --force
+   #logCmd tckgen ${V1} -algorithm FACT -select ${SELECT} -step 0.5 -angle ${ANGLE} -cutoff ${CUTOFF} -maxlength ${MAXLENGH} -minlength 1 -seed_image ${OUT}  ${TRACTO_FACT}  --force
    
    
    X=10
@@ -90,7 +90,7 @@ do
    Z=11
    FOV=40
    FIGURE_NAME=figure_2D_tracto_${NUM}_FACT_${ROI_NAME}_s${SELECT}_ep${STEP}_a${MAXLENGH}_angle${ANGLE}_co${CUT_OFF}_moved_to_T_
-   logCmd mrview  ${MEAN}  -size 1800,600 -mode 2 -focus ${X},${Y},${Z} -target ${X},${Y},${Z}  -intensity 0,11 -tractography.load ${TRACTO_FACT}  -tractography.lighting 1 -config MRViewOrthoAsRow 1 -fov ${FOV}  -comments 0 -voxelinfo 0  -orientationlabel 0 -colourbar 0  -imagevisible 0 -capture.folder Figures/ -capture.prefix ${FIGURE_NAME} -capture.grab  -noannotations  --force  -exit
+   logCmd mrview  ${MEAN}  -size 1800,600 -mode 2 -focus ${X},${Y},${Z} -target ${X},${Y},${Z}  -intensity 0,11 -tractography.load ${TRACTO_FACT}  -tractography.lighting 1 -config MRViewOrthoAsRow 1 -fov ${FOV}  -comments 0 -voxelinfo 0  -orientationlabel 0 -colourbar 0   -capture.folder Figures/ -capture.prefix ${FIGURE_NAME} -capture.grab  -noannotations  --force  -exit
    
    FIGURE_NAME=figure_3D_tracto_${NUM}_FACT_${ROI_NAME}_s${SELECT}_ep${STEP}_a${MAXLENGH}_angle${ANGLE}_co${CUT_OFF}_moved_to_T_
    logCmd mrview  ${MEAN}  -size 1800,600 -mode 3 -focus ${X},${Y},${Z} -target ${X},${Y},${Z}  -intensity 0,11 -tractography.load ${TRACTO_FACT}  -tractography.lighting 1  -comments 0 -voxelinfo 0 -orientationlabel 0 -colourbar 0  -imagevisible 0 -capture.folder Figures/ -capture.prefix ${FIGURE_NAME} -capture.grab  -noannotations  --force  -exit
