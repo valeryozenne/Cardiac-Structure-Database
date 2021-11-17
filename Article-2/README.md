@@ -38,7 +38,7 @@ As an example, the code automatically produces the following figures.
 
 The data are available on the Zenodo Platform.
 
-* v0.1 [link](https://doi.org/10.5281/zenodo.5140252)Initial Push 
+* v0.1 [link](https://doi.org/10.5281/zenodo.5140252) Initial Push 
 * v0.2 [link](https://doi.org/10.5281/zenodo.5156088) Add original DWI data in .mif format for MRtrix usage. 
 
 ```
