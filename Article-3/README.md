@@ -39,8 +39,8 @@ As an example, the code automatically produces the following figures.
 ## Data folder
 
 The data are available on the Zenodo Platform.
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5789035.svg)]()
-* v0.1 [link](https://doi.org/10.5281/zenodo.5789035) Initial Push 
+
+* v0.1 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5789035.svg)]() Initial Push 
 
 
 Data Hierarchy
