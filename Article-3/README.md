@@ -1,5 +1,7 @@
 # Cardiac-Structure-Database
 
+Material for the article "Impact of Intraventricular Septal Fiber Orientation on Cardiac Electromechanical Function" will be uploaded on the zenodo platform in January 2022. The link will be indicated at the bottom of this page. 
+
 Additionnal materials including data and codes for dwi and tractography processing. 
 
 If you use the system, please cite: 
