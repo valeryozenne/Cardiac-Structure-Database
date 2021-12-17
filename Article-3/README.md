@@ -36,7 +36,7 @@ As an example, the code automatically produces the following figures.
 ## Figures
 
 
-### Sample Human in LA Aligned space
+### Human Sample in LA Aligned space
 ![](Figures/figure_Human_2D_tracto_1_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
 ![](Figures/other_figures0000.png)
 ![](Figures/other_figures0001.png)
