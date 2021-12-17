@@ -2,6 +2,17 @@
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
+If you use the data, please cite: 
+
+```
+A groupwise registration and tractography framework for cardiac myofiber architecture description by diffusion MRI: an application to the ventricular junctions.
+Julie Magat, Maxime Yon, Yann Bihan-Poudec, Valéry Ozenne
+bioRxiv 2021.10.05.463112; doi: https://doi.org/10.1101/2021.10.05.463112
+
+This article is a preprint and has not been certified by peer review.
+```
+
+
 # Environnement
 
 ANTs and MRtrix are mandatory dependencies. 

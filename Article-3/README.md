@@ -2,6 +2,12 @@
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
+If you use the system, please cite: 
+
+```
+
+```
+
 # Environnement
 
 ANTs and MRtrix are mandatory dependencies. 
@@ -35,5 +41,53 @@ The data are available on the Zenodo Platform.
 * v0.1 [link]() Initial Push 
 
 
+Data Hierarchy
+
+```
+.
+├── Human
+│   ├── 1
+│   │   ├── Aligned
+│   │   └── Native
+│   └── ROI
+└── Sheep
+    ├── 1
+    │   ├── Aligned
+    │   └── Template
+    ├── 2
+    │   ├── Native
+    │   └── Template
+    ├── 3
+    │   ├── Native
+    │   └── Template
+    ├── averaged
+    │   └── Template
+    └── ROI
+
+```
+
+
+File Hierarchy 
+
+```
+.
+├── 1
+│   ├── Native
+│   │   ├── dwi_raw_1_4D.mif
+│   │   ├── fa_1.nii.gz
+│   │   ├── mask_threshold_1_all.nii.gz
+│   │   ├── mean_bzero_1.nii.gz
+│   │   ├── Segmentation_1-ready-label_native.nii.gz
+│   │   ├── tensor_1_4D.nii.gz
+│   │   └── v1_1_masked.nii.gz
+│   └── Template
+│       ├── fa_1.nii.gz
+│       ├── mask_threshold_1_all_to_T_via_ants.nii.gz
+│       ├── mean_bzero_1_to_T_via_ants.nii.gz
+│       ├── tensor_1_moved_4D_reoriented.nii.gz
+│       └── v1_1_moved_reoriented_masked.nii.gz
+
+
+```
 
 
