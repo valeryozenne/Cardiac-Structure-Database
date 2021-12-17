@@ -36,11 +36,24 @@ As an example, the code automatically produces the following figures.
 ## Figures
 
 
+### Sample Human in LA Aligned space
+![](Figures/figure_Human_2D_tracto_1_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+![](Figures/other_figures0000.png)
+![](Figures/other_figures0001.png)
+
+### Sample 1 in template space
+![](Figures/figure_2D_tracto_1_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+### Sample 2 in template space
+![](Figures/figure_2D_tracto_2_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+### Sample 3 in template space
+![](Figures/figure_2D_tracto_3_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+
+
 ## Data folder
 
 The data are available on the Zenodo Platform.
 
-* v0.1 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5789035.svg)](https://doi.org/10.5281/zenodo.5789035) Initial Push 
+* v0.1 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5156088.svg)](https://doi.org/10.5281/zenodo.5156088) Initial Push 
 
 
 Data Hierarchy
