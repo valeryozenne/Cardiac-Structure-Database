@@ -4,7 +4,7 @@ Material for the article "Impact of Intraventricular Septal Fiber Orientation on
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
-If you use the system, please cite: 
+If you use the data, please cite: 
 
 ```
 
