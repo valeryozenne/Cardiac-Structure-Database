@@ -1,6 +1,8 @@
 # Cardiac-Structure-Database
 
-Additionnal materials showing the images for the three samples are presented in the webpage. Material and methods are presented in the article available at this in link in MAGMA [here](mettre le lien du journal).
+Additionnal materials showing the images for the three samples are presented in the webpage. Material and methods are presented in the article available at this in link in MAGMA [here](https://link.springer.com/article/10.1007/s10334-021-00913-4).
+
+
 
 ## Heart 1
 
