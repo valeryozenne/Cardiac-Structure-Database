@@ -5,6 +5,10 @@ Additionnal materials including data and codes for dwi and tractography processi
 If you use the data, please cite: 
 
 ```
+Magat J, Yon M, Bihan-Poudec Y, Ozenne V (2022) A groupwise registration and tractography framework for cardiac myofiber architecture description by diffusion MRI: An application to the ventricular junctions. PLOS ONE 17(7): e0271279. https://doi.org/10.1371/journal.pone.0271279
+```
+
+```
 A groupwise registration and tractography framework for cardiac myofiber architecture description by diffusion MRI: an application to the ventricular junctions.
 Julie Magat, Maxime Yon, Yann Bihan-Poudec, Valéry Ozenne
 bioRxiv 2021.10.05.463112; doi: https://doi.org/10.1101/2021.10.05.463112

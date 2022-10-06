@@ -1,19 +1,16 @@
 # Cardiac-Structure-Database
 
-Material for the article "Impact of Intraventricular Septal Fiber Orientation on Cardiac Electromechanical Function" have been uploaded on the zenodo platform in December 2021. The link is indicated at the bottom of this page. 
+Material for the article "" have been uploaded on the zenodo platform in December 2021. The link is indicated at the bottom of this page. 
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
 If you use the data, please cite: 
 
 ```
-Rodriguez Padilla J, Petras A, Magat J, Bayer J, Bihan-Poudec Y, El-Hamrani D, Ramlugun G, Neic A, Augustin C, Vaillant F, Constantin M, Benoist D, Pourtau L, Dubes V, Rogier J, Labrousse L, Bernus O, Quesson B, Haissaguerre M, Gsell M, Plank G, Ozenne V, Vigmond E. Impact of Intraventricular Septal Fiber Orientation on Cardiac Electromechanical Function. Am J Physiol Heart Circ Physiol. 2022 Mar 18. doi: 10.1152/ajpheart.00050.2022. Epub ahead of print. PMID: 35302879.
+
 ```
 
-Supplemental materials of the article can be accessed at this link : 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6469798.svg)](https://doi.org/10.5281/zenodo.6469798) 
-
+Supplemental materials of the article can be accessed at this link /here (TODO) : 
 
 # Environnement
 
@@ -41,24 +38,30 @@ As an example, the code automatically produces the following figures.
 ## Figures
 
 
-### Human Sample in LA Aligned space
-![](Figures/figure_Human_2D_tracto_1_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
-![](Figures/other_figures0000.png)
-![](Figures/other_figures0001.png)
+### Human Sample 1 in LA Aligned space
+
+### Human Sample 2 in LA Aligned space
+
+### Human Sample 3 in LA Aligned space
+
+### Human Sample 4 in LA Aligned space
+
+### Human Sample 5 in LA Aligned space
+
 
 ### Sample 1 in template space
-![](Figures/figure_2D_tracto_1_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+![](Figures/XX.png)
 ### Sample 2 in template space
-![](Figures/figure_2D_tracto_2_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+![](Figures/XX.png)
 ### Sample 3 in template space
-![](Figures/figure_2D_tracto_3_FACT_Full_s100k_ep_a20_angle60_co_moved_to_T_0000.png)
+![](Figures/X.png)
 
 
 ## Data folder
 
 The data are available on the Zenodo Platform.
 
-* v0.1 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5789035.svg)](https://doi.org/10.5281/zenodo.5789035) Initial Push 
+* v0.1 [![DOI]() Initial Push 
 
 
 Data Hierarchy
@@ -70,19 +73,6 @@ Data Hierarchy
 │   │   ├── Aligned
 │   │   └── Native
 │   └── ROI
-└── Sheep
-    ├── 1
-    │   ├── Aligned
-    │   └── Template
-    ├── 2
-    │   ├── Native
-    │   └── Template
-    ├── 3
-    │   ├── Native
-    │   └── Template
-    ├── averaged
-    │   └── Template
-    └── ROI
 
 ```
 
