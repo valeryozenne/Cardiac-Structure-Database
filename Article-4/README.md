@@ -1,6 +1,6 @@
 # Cardiac-Structure-Database
 
-Material for the article "" have been uploaded on the zenodo platform in December 2021. The link is indicated at the bottom of this page. 
+Material for the article "" will be uploaded on the zenodo platform in November 2022 (really soon). The link is indicated at the bottom of this page. 
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
@@ -32,7 +32,7 @@ Compiled: Feb  4 2021 11:20:35
 
 ## Code 
 
-A code for the computation of the diffusion tensor metric and streamlines is available.  The code is subject to change at any moment. 
+A code for the computation of the diffusion tensor metric and streamlines is available. The code is subject to change at any moment. 
 As an example, the code automatically produces the following figures. 
 
 ## Figures
