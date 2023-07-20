@@ -61,7 +61,9 @@ Additionnal feature have been developped and could be added upon request.
 * Generation of streamlines 
 * Reorientation of streamlines.
 * Non-linear registration of samples
-* Atlas / Template approaches 
+* Atlas / Template approaches for ex-vivo sample hearts.
+
+
 
 
 
@@ -154,7 +156,7 @@ Image name:          "Tutorial_for_Lucy/Data/1/Native/tensor_1_4D.nii.gz"
 
 You can define the linear transform either manually or from registration. 
 
-ITK-SNAP is the reference software for ANTs and can be used for defining linear transform either.
+ITK-SNAP is the reference software for ANTs and can be used for defining linear transform.
 Check this: https://github.com/ANTsX/ANTs/wiki/Using-ITK-SNAP-with-ANTs
 
 * step 1, open the mean_b0 image twice:
@@ -172,7 +174,7 @@ itksnap -g ${MEAN_NII} -o ${MEAN_NII}
 * you can save also the image after linear interpolation is the new space
 ![Alt text](Figures/4.png)
 
-* it can necessary to pad this image as a next processing step. the long axis of the sample is usually in our case aligned with diagonal of the image. The alignement of the sampel in the y direction of the image could crop the base or apex of the sample.
+* it can be necessary to pad the image as a next processing step. The long axis of the sample is usually in our case aligned with diagonal of the image. The alignement of the sample in the y direction of the image could crop the base or apex of the sample.
 
 
 
