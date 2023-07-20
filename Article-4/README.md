@@ -1,13 +1,12 @@
 # Cardiac-Structure-Database
 
-Material for the article "" will be uploaded on the zenodo platform in January 2023 (hopefully really soon). The link is indicated at the bottom of this page. 
+Material for the article "" will be uploaded on the zenodo platform (hopefully really soon). The link is indicated at the bottom of this page. 
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
 If you use the data, please cite: 
 
 ```
-
 ```
 
 Supplemental materials of the article can be accessed at this link /here (TODO) : 

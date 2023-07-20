@@ -1,6 +1,6 @@
 # Tutorial for computation and reorientation of the cardiac diffusion tensor metric 
 
-Here is a brief tutorial for tensor reorientation. Largely inspired from https://github.com/ANTsX/ANTs/wiki/Warp-and-reorient-a-diffusion-tensor-image.
+Here is a brief tutorial for computation and reorientation of the cardiac diffusion tensor metric. Largely inspired from https://github.com/ANTsX/ANTs/wiki/Warp-and-reorient-a-diffusion-tensor-image.
 
 # Acknowledgments
 
@@ -21,10 +21,10 @@ Magat J, Yon M, Bihan-Poudec Y, Ozenne V (2022) A groupwise registration and tra
 
 ANTs and MRtrix are mandatory dependencies. ITK-SNAP and 3DSlicer may be usefull as well. 
 
-Check that the command antsRegistration is in the path of your sytem. 
+Check that the command `antsRegistration`` (so ANTs) is in the path of your sytem. 
 
 ```
-valery:~/Dev/Cardiac-Structure-Database$ antsRegistration --version
+valery:~/Dev/Cardiac-Structure-Database$ `antsRegistration`` --version
 ANTs Version: 2.4.4.post12-g8cc4f8a
 Compiled: May 25 2023 10:33:31
 ```
@@ -48,7 +48,23 @@ Compiled: May 25 2023 10:33:31
 
 ## Code 
 
-A code for the computation and reorientation of the diffusion tensor metric in `Code` folder. The code is subject to change at any moment. As an example, the code automatically produces the following figures: 
+A code for the computation and reorientation of the diffusion tensor metric is in `Code` folder. The code is subject to change at any moment. As an example, the code automatically produces the following figures.
+
+The code combine the use of MRtrix for diffusion metric estimation and ANTs for reorientation.
+
+A crucial step is the tensor conversion from MRtrix to ANTs format. Two subscripts are in charge of such task.
+Please check that /tmp/ folder exist and we have permission in this folder.
+
+Additionnal feature have been developped and could be added upon request.
+
+
+* Generation of streamlines 
+* Reorientation of streamlines.
+* Non-linear registration of samples
+* Atlas / Template approaches 
+
+
+
 
 ## Figures
 
@@ -136,22 +152,22 @@ Image name:          "Tutorial_for_Lucy/Data/1/Native/tensor_1_4D.nii.gz"
 
 ## ITK-SNAP wiki
 
-ITK-SNAP is the reference software for ANTs. 
-Check this: https://github.com/ANTsX/ANTs/wiki/Using-ITK-SNAP-with-ANTs
-
 You can define the linear transform either manually or from registration. 
 
-* step 1, open the mean_b0 image:
+ITK-SNAP is the reference software for ANTs and can be used for defining linear transform either.
+Check this: https://github.com/ANTsX/ANTs/wiki/Using-ITK-SNAP-with-ANTs
+
+* step 1, open the mean_b0 image twice:
 ```
 itksnap -g ${MEAN_NII} -o ${MEAN_NII}
 ```
-* go to Tools/Registration
-* click manual
-* on the right panel, move and rotate the sample
+* go to `Tools/Registration`
+* click `Manual`
 ![Alt text](Figures/1.png)
-* if necessaru , you can display both images as overlay
+* on the right panel, move and rotate the sample
+* if necessary , you can display both images as an overlay image with different colormaps
 ![Alt text](Figures/2.png)
-* using the disk icon, save the transformation
+* using the disk icon (bottom right), save the transformation in
 ![Alt text](Figures/3.png)
 * you can save also the image after linear interpolation is the new space
 ![Alt text](Figures/4.png)
