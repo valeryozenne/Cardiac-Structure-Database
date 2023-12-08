@@ -35,8 +35,7 @@ Compiled: Feb  4 2021 11:20:35
 
 ## Code 
 
-A code for the computation of the diffusion tensor metric and streamlines is available. The code is subject to change at any moment. 
-As an example, the code automatically produces the following figures. 
+A code for the computation of the diffusion tensor metric and streamlines is available. The code is subject to change at any moment. As an example, the code automatically produces the following figures. Sample S1 has been re-tested, other should work the same.
 
 ## Figures
 
@@ -52,11 +51,15 @@ As an example, the code automatically produces the following figures.
 ### Human Sample 5 in LA Aligned space
 
 
-### Sample 1 in template space
+### Sample 1 in LA space
+![Alt text](Figures/figure_2D_after_rotation_fixel_1_0000.png)
+### Sample 2 in LA space
 ![](Figures/XX.png)
-### Sample 2 in template space
-![](Figures/XX.png)
-### Sample 3 in template space
+### Sample 3 in LA space
+![](Figures/X.png)
+### Sample 4 in LA space
+![](Figures/X.png)
+### Sample 5 in LA space
 ![](Figures/X.png)
 
 
