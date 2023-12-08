@@ -1,6 +1,8 @@
 # Cardiac-Structure-Database
 
-Material for the article "" will be uploaded on the zenodo platform (hopefully really soon). The link is indicated at the bottom of this page. 
+Material for the article "Cardiac structure discontinuities revealed by ex-vivo microstructural
+characterization. A focus on the basal inferoseptal left ventricle region" have been uploaded on the zenodo platform. The link is indicated at the bottom of this page. 
+
 
 Additionnal materials including data and codes for dwi and tractography processing. 
 
@@ -9,7 +11,9 @@ If you use the data, please cite:
 ```
 ```
 
-Supplemental materials of the article can be accessed at this link /here (TODO) : 
+Data associated with the article can be accessed at this link : 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10303489.svg)](https://doi.org/10.5281/zenodo.10303489)
 
 # Environnement
 
@@ -60,18 +64,27 @@ As an example, the code automatically produces the following figures.
 
 The data are available on the Zenodo Platform.
 
-* v0.1 [![DOI]() Initial Push 
+* v0.1 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10303489.svg)](https://doi.org/10.5281/zenodo.10303489) Initial Push 
 
 
 Data Hierarchy
 
+
 ```
-.
+
 ├── Human
 │   ├── 1
-│   │   ├── Aligned
-│   │   └── Native
-│   └── ROI
+│   ├── 2
+│   ├── 3
+│   ├── 4
+│   └── 5
+└── Sheep
+    ├── 1
+    ├── 2
+    ├── 3
+    ├── 4
+    └── 5
+
 
 ```
 
@@ -81,20 +94,12 @@ File Hierarchy
 ```
 .
 ├── 1
-│   ├── Native
-│   │   ├── dwi_raw_1_4D.mif
-│   │   ├── fa_1.nii.gz
-│   │   ├── mask_threshold_1_all.nii.gz
-│   │   ├── mean_bzero_1.nii.gz
-│   │   ├── Segmentation_1-ready-label_native.nii.gz
-│   │   ├── tensor_1_4D.nii.gz
-│   │   └── v1_1_masked.nii.gz
-│   └── Template
-│       ├── fa_1.nii.gz
-│       ├── mask_threshold_1_all_to_T_via_ants.nii.gz
-│       ├── mean_bzero_1_to_T_via_ants.nii.gz
-│       ├── tensor_1_moved_4D_reoriented.nii.gz
-│       └── v1_1_moved_reoriented_masked.nii.gz
+│   ├── cube-Segment_1-label.nii.gz
+│   ├── grad.b
+│   ├── mask_mean_b0.nii.gz
+│   ├── mean_b0_RVIP.nii.gz
+│   ├── tensor_RVIP.nii.gz
+│   └── transform_itk_to_LA.txt
 
 
 ```
