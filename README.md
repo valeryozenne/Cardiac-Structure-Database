@@ -13,3 +13,5 @@
 [link](Article-5/) to additionnal materials regarding the abstracts submission for FIMH 2023, Lyon, France
 
 [link](Tutorial_for_Lucy/) Tutorial about tensor reorientation
+
+[link](Tutorial_NC_EPI3D_DIFF/) Tutorial about tensor reconstruction and reorientation using the NC_EPI3D_DIFF sequence 
