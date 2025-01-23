@@ -32,13 +32,16 @@ Compiled: Apr 20 2022 11:20:40
 
 ## MRI
 
-The NC_EPI3D_DIFF is available via CPP Sion all VE version of Siemens MRI. It has been mainly tested on 3T Prisma and Skyra. 
+The NC_EPI3D_DIFF is available via CPP Sion all VE versions of Siemens MRI. It has been mainly tested on 3T Prisma and Skyra. 
 
 # Context
 
-6 sequences has been acquired and are accesible at this ![links](https://mille-feuilles.ihu-liryc.fr/#collection/666afd6021199c3aab754796/folder/678f9e409332b35e6e4dafbf)
+6 DWI sequences has been acquired on ex vivo sample and are accesible at this "https://mille-feuilles.ihu-liryc.fr/#collection/666afd6021199c3aab754796/folder/678f9e409332b35e6e4dafbf".
+
+Acquisitions were performed with Lucy Kershaw from Centre for Cardiovascular Science and Edinburgh Imaging Facilities and John Keen from The Royal School of Veterinary Studies and The Roslin Institute.
+
 Information must be set in a separate json files in Jsons/. It assummes single shell (here b=1000).
-b0 acquisitions in RL/LR or PA/AP has been acquired. TopUp correction is not the script as well as N4Bias correction.
+b0 acquisitions in RL/LR or PA/AP has been acquired. TopUp correction and N4Bias correction are not presented here.
 
 # Code 
 
@@ -57,11 +60,16 @@ Please check that /tmp/ folder exist and we have permission in this folder.
 Additionnal feature have been developped and could be added upon request.
 
 * TopUp correction
+* N4Biais correction
 * Generation of streamlines 
 * Reorientation of streamlines.
 * Non-linear registration of samples
 * Atlas / Template approaches for ex-vivo sample hearts.
 * Angles, myocardial disarray index calculation
+
+# Notes
+
+Note that high intensity signal is present in the mean b0 images leading to apparent black signal, cut off fix the display issue.
 
 # Jsons
 
@@ -90,8 +98,11 @@ Additionnal feature have been developped and could be added upon request.
 
 ## Figures
 
-Sample in initial orientation
-![Alt text](Figures/figure_2D_mean_bzero_initial_1_0000.png)
-
 Sample after reorientation
-![Alt text](Figures/figure_2D_mean_bzero_after_rotation_1_0000.png) 
+
+![Alt text](Figures/figure_large_fov_anatomical_0000.png)
+
+
+![Alt text](Figures/figure_large_fov_overlay_0000.png) 
+
+![Alt text](Figures/figure_large_fov_fixel_0000.png) 
