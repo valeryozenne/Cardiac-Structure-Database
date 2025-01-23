@@ -1,0 +1,22 @@
+{
+    "sequence": [
+ 
+       {  "PROJECT_FOLDER":"/workspace_QMRI/PROJECTS_DATA/2025_RECH_EPI3Ddiff_horse/",
+          "MAIN_EXAM_FOLDER_NAME":"7_HORSEHEARTCUT_25_01_17-10_10_14-STD-1_3_12_2_1107_5_2_43_66056",
+          "SUB_EXAM_FOLDER_NAME": "RMSB_PC_20250117_101102_883000",
+          "MRTRIX_FOLDER_NAME":"Mrtrix_Reco_3_AP_seg5_32dir_1.5mm",
+          "DIR": 32,
+          "BVALUE": 1000,
+          "SEQ_AP_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S5_B0_STRICT_AP_1_5MM_0013",         
+          "SEQ_PA_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S5_B0_STRICT_PA_1_5MM_0014",
+          "SEQ_AP_BVALUE_FOLDER_NAME": "NC_EPI3D_DIFF_S5_B1000_STRICT_AP_1_5MM_DIR32_0018",         
+          "MPRAGE_FOLDER": "3DT1_MPRAGE_0_8MM_0016",
+          "TRANSFORM_ALIGNED": "5/transform_itk_native_to_LA.txt",
+          "RESLICED_REFERENCE": "5/resliced_volume_in_LA_space_1.5mm.nii.gz",
+          "THRESHOLD":30,
+          "FORCE": "0",
+          "SEQ_AP_B0_FOLDER_NAME_2ND": "NC_EPI3D_DIFF_S5_B0_STRICT_AP_1_5MM_0019",         
+          "SEQ_PA_B0_FOLDER_NAME_2ND": "NC_EPI3D_DIFF_S5_B0_STRICT_PA_1_5MM_0020"
+       }      
+    ]
+}    
