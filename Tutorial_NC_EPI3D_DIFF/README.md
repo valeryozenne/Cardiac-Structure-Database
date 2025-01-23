@@ -32,7 +32,7 @@ Compiled: Apr 20 2022 11:20:40
 
 ## MRI
 
-The NC_EPI3D_DIFF is available via CPP Sion all VE versions of Siemens MRI. It has been mainly tested on 3T Prisma and Skyra. 
+The NC_EPI3D_DIFF is available via CPP on all VE versions of Siemens MRI. It has been mainly tested on 3T Prisma and Skyra. 
 
 # Context
 
@@ -45,7 +45,7 @@ b0 acquisitions in RL/LR or PA/AP has been acquired. TopUp correction and N4Bias
 
 # Code 
 
-A ![code](Code) for the computation and reorientation of the diffusion tensor metric is in ![Jsons](Jsons) folder. The code is subject to change at any moment. As an example, the code automatically produces the following ![figures](Figures).
+A ![code](Code) for the computation and reorientation of the diffusion tensor metric is avaible. Jsons file are used to set the DICOM folder name and path in the ![Jsons](Jsons) folder. The code is subject to change at any moment. As an example, the code automatically produces the following ![figures](Figures).
 
 The code combine the use of MRtrix for diffusion metric estimation and ANTs for reorientation.
 Please run either  `run_all.sh` or
