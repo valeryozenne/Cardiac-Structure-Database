@@ -1,7 +1,6 @@
 # Cardiac-Structure-Database
 
-Material for the article "Cardiac structure discontinuities revealed by ex-vivo microstructural
-characterization. A focus on the basal inferoseptal left ventricle region" have been uploaded on the zenodo platform. The link is indicated at the bottom of this page. 
+Material for the article "Cardiac structure discontinuities revealed by ex-vivo microstructural characterization. A focus on the basal inferoseptal left ventricle region" have been uploaded on the zenodo platform. The link is indicated at the bottom of this page. 
 
 
 Additionnal materials including data and codes for dwi and tractography processing. 
@@ -9,6 +8,7 @@ Additionnal materials including data and codes for dwi and tractography processi
 If you use the data, please cite: 
 
 ```
+Cabanis, P., Magat, J., Rodriguez-Padilla, J., Ramlugun, G., Yon, M., Bihan-Poudec, Y., ... & Ozenne, V. (2023). Cardiac structure discontinuities revealed by ex-vivo microstructural characterization. A focus on the basal inferoseptal left ventricle region. Journal of Cardiovascular Magnetic Resonance, 25(1), 78. 
 ```
 
 Data associated with the article can be accessed at this link : 

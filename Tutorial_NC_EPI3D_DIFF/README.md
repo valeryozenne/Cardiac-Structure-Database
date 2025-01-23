@@ -4,6 +4,26 @@ Here is a brief tutorial for tensor reconstruction and reorientation using the N
 
 
 
+# Acknowledgments
+
+The author is grateful for the help provided via the Github or Discourse platform by Philip Cook and Nick Tustison regarding the use of ANTs and Max Pietsh, Robert Smith and Donald Tournier regarding the use of MRtrix3 software. 
+
+# References
+Here are relevent references for this script in cardiac DTI: 
+
+```
+Cabanis, P., Magat, J., Rodriguez-Padilla, J., Ramlugun, G., Yon, M., Bihan-Poudec, Y., ... & Ozenne, V. (2023). Cardiac structure discontinuities revealed by ex-vivo microstructural characterization. A focus on the basal inferoseptal left ventricle region. Journal of Cardiovascular Magnetic Resonance, 25(1), 78.
+```
+
+```
+Rodriguez Padilla J, Petras A, Magat J, Bayer J, Bihan-Poudec Y, El-Hamrani D, Ramlugun G, Neic A, Augustin C, Vaillant F, Constantin M, Benoist D, Pourtau L, Dubes V, Rogier J, Labrousse L, Bernus O, Quesson B, Haissaguerre M, Gsell M, Plank G, Ozenne V, Vigmond E. Impact of Intraventricular Septal Fiber Orientation on Cardiac Electromechanical Function. Am J Physiol Heart Circ Physiol. 2022 Mar 18. doi: 10.1152/ajpheart.00050.2022. Epub ahead of print. PMID: 35302879.
+```
+
+```
+Magat J, Yon M, Bihan-Poudec Y, Ozenne V (2022) A groupwise registration and tractography framework for cardiac myofiber architecture description by diffusion MRI: An application to the ventricular junctions. PLOS ONE 17(7): e0271279. https://doi.org/10.1371/journal.pone.0271279
+```
+
+
 # Environnement
 
 ANTs and MRtrix are mandatory dependencies. ITK-SNAP and 3DSlicer may be usefull as well. 
@@ -33,6 +53,7 @@ Compiled: Apr 20 2022 11:20:40
 ## MRI
 
 The NC_EPI3D_DIFF is available via CPP on all VE versions of Siemens MRI. It has been mainly tested on 3T Prisma and Skyra. 
+Please contact Nadege Corbin for further information.
 
 # Context
 
