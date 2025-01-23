@@ -65,9 +65,6 @@ Additionnal feature have been developped and could be added upon request.
 
 
 
-
-
-
 ## Figures
 
 Sample in initial orientation

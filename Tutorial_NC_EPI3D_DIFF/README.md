@@ -77,23 +77,23 @@ Note that high intensity signal is present in the mean b0 images leading to appa
 {
     "sequence": [
  
-       {  "PROJECT_FOLDER":"X",
-          "MAIN_EXAM_FOLDER_NAME":"X",
-          "SUB_EXAM_FOLDER_NAME": "X",
-          "MRTRIX_FOLDER_NAME":"X",
+       {  "PROJECT_FOLDER":"/workspace_QMRI/PROJECTS_DATA/2025_RECH_EPI3Ddiff_horse/",
+          "MAIN_EXAM_FOLDER_NAME":"0115_HORSEHEART_25_01_15-11_43_10-STD-1_3_12_2_1107_5_2_43_66056",
+          "SUB_EXAM_FOLDER_NAME": "RMSB_PC_20250115_114338_281000",
+          "MRTRIX_FOLDER_NAME":"Mrtrix_Reco_3_RL_seg4_8dir_2.0mm",
           "DIR": 8,
           "BVALUE": 1000,
-          "SEQ_AP_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S4_B0_STRICT_AP_0010",         
-          "SEQ_PA_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S5_B0_STRICT_PA_0011",
-          "SEQ_AP_BVALUE_FOLDER_NAME": "NC_EPI3D_DIFF_S4_B1000_STRICT_AP_0012",         
-          "MPRAGE_FOLDER": "3DT1_MPRAGE_0005",
-          "TRANSFORM_ALIGNED": "2/transform_itk_native_to_LA.txt",  # only for reorientation
-          "RESLICED_REFERENCE": "2/resliced_volume_in_LA_space_2.0mm.nii.gz", # only for reorientation
+          "SEQ_AP_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S4_B0_OBL_RL_0007",         
+          "SEQ_PA_B0_FOLDER_NAME": "NC_EPI3D_DIFF_S4_B0_OBL_LR_0008",
+          "SEQ_AP_BVALUE_FOLDER_NAME": "NC_EPI3D_DIFF_S4_B1000_OBL_RL_0009",         
+          "MPRAGE_FOLDER": "3DT1_MPRAGE_0005", 
+          "TRANSFORM_ALIGNED": "1/transform_itk_native_to_LA.txt",
+          "RESLICED_REFERENCE": "1/resliced_volume_in_LA_space_2.0mm.nii.gz",
           "THRESHOLD":30,
           "FORCE": "0"
        }      
     ]
-}
+}    
 ```    
 
 ## Figures
